@@ -1,0 +1,47 @@
+
+:root{
+  --brand:#0b3768; /* lacivert */
+  --brand-2:#0e4a8a;
+}
+*{box-sizing:border-box}
+body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:#1f2544;}
+
+.bg-primary{background-color:var(--brand)!important}
+.text-primary{color:var(--brand)!important}
+.btn-primary{
+  --bs-btn-bg:var(--brand);
+  --bs-btn-border-color:var(--brand);
+  --bs-btn-hover-bg:var(--brand-2);
+  --bs-btn-hover-border-color:var(--brand-2);
+}
+a{ text-decoration:none }
+
+.hero-bg{
+  margin-top:56px;
+  background: radial-gradient(1200px 600px at 10% 10%, #0e4a8a 0%, var(--brand) 40%, #0a2b50 100%);
+}
+.text-accent{ color:#fffb }
+.hero-card{ border:1px solid #eef2f7 }
+
+.section-padding{ padding:80px 0 }
+.section-title{ font-weight:700; position:relative }
+.section-title::after{
+  content:''; display:block; width:80px; height:4px; background:var(--brand);
+  margin-top:10px; border-radius:8px
+}
+
+.card .fa-2xl{ transform: translateY(2px) }
+
+#products-grid .card{ transition:transform .15s ease, box-shadow .15s ease }
+#products-grid .card:hover{ transform: translateY(-4px); box-shadow:0 1rem 2rem rgba(0,0,0,.08) }
+
+footer a:hover{ opacity:.85 }
+
+.whatsapp-float{
+  position:fixed; right:18px; bottom:18px; width:54px; height:54px; border-radius:50%;
+  background:#25D366; color:#fff; display:flex; align-items:center; justify-content:center;
+  font-size:28px; box-shadow:0 10px 25px rgba(0,0,0,.2); z-index:1000
+}
+
+/* Smooth scroll */
+html{ scroll-behavior:smooth }

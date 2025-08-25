@@ -1,0 +1,94 @@
+[
+  {
+    "category": "Depolama",
+    "name": "SSD 240GB SATA",
+    "brand": "Intenso",
+    "price": 750,
+    "desc": "500MB/s okuma."
+  },
+  {
+    "category": "Depolama",
+    "name": "SSD 512GB SATA",
+    "brand": "Hikvision",
+    "price": 1150,
+    "desc": "550MB/s okuma."
+  },
+  {
+    "category": "Depolama",
+    "name": "SSD 1TB SATA",
+    "brand": "Sandisk",
+    "price": 2700,
+    "desc": "Plus Serisi, 600MB/s okuma."
+  },
+  {
+    "category": "Bellek",
+    "name": "8GB DDR4 3200MHz",
+    "brand": "Hikvision",
+    "price": 800,
+    "desc": "UDIMM 288Pin."
+  },
+  {
+    "category": "Bellek",
+    "name": "16GB DDR4 3200MHz",
+    "brand": "Corsair",
+    "price": 2750,
+    "desc": "Vengeance RGB Pro."
+  },
+  {
+    "category": "Güç",
+    "name": "Güç Kaynağı 500W 80+",
+    "brand": "GameForce",
+    "price": 1700,
+    "desc": "80+ Bronz Sertifikalı Güç Kaynağı"
+  },
+  {
+    "category": "Güç",
+    "name": "Güç Kaynağı 650W 80+ Bronze",
+    "brand": "MSI",
+    "price": 13970,
+    "desc": "Yüksek verim, koruma devreleri."
+  },
+  {
+    "category": "Soğutma",
+    "name": "120mm Kasa Fanı",
+    "brand": "Arctic",
+    "price": 700,
+    "desc": "Sessiz rulman, yüksek akış."
+  },
+  {
+    "category": "Soğutma",
+    "name": "CPU Hava Soğutucu",
+    "brand": "Rampage",
+    "price": 2100,
+    "desc": "LGA1200 Uyumlu S-RGB Hava Soğutmalı CPU Fan"
+  },
+ 
+  {
+    "category": "Ekran Kartı",
+    "name": "GTX 1650 4GB D6 VENTUS",
+    "brand": "MSI",
+    "price": 20700,
+    "desc": "1080p e-spor oyunları."
+  },
+  {
+    "category": "Ekran Kartı",
+    "name": "Amd Radeon RX 6600 Pulse 8GB 128Bit 2490MHz",
+    "brand": "Sapphire",
+    "price": 20000,
+    "desc": "1080p yüksek ayarlar."
+  },
+  {
+    "category": "Çevre Birimleri",
+    "name": "Mekanik Klavye",
+    "brand": "SteelSeries",
+    "price": 2300,
+    "desc": "Apex 3 Tkl Gaming Klavye"
+  },
+  {
+    "category": "Çevre Birimleri",
+    "name": "Oyuncu Faresi",
+    "brand": "Logitech",
+    "price": 3800,
+    "desc": "G G309 Lıghtspeed Hero 25K Sensörlü"
+  }
+]
